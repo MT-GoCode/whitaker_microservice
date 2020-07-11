@@ -7,7 +7,10 @@ Small helper function to get a list of unique stems from the inflects data
 """
 
 import re
-from open_words.inflects import Inflects
+
+# from "./inflects" import Inflects # change: just directly importing inflects
+# from inflects import Inflects
+from inflects import Inflects
 
 def get_stems(word, inflects=Inflects):
 
@@ -23,6 +26,9 @@ def get_stems(word, inflects=Inflects):
 		if word.endswith( inflect['ending'] ):
 			stem = re.sub( inflect['ending'] + "$", "", word )
 			if word != stem and stem not in stems:
+				print(stem, stems)
 				stems.append( stem )
 
 	return stems
+
+print(get_stems('habeo'))

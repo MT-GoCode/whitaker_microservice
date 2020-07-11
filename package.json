@@ -1,0 +1,25 @@
+{
+  "name": "open_words",
+  "version": "1.0.0",
+  "description": "Open Words is a port of William Whitaker's original Ada code to Python for future maintenance and improvement.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArchimedesDigital/open_words.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArchimedesDigital/open_words/issues"
+  },
+  "homepage": "https://github.com/ArchimedesDigital/open_words#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "child_process": "^1.0.2",
+    "express": "^4.17.1"
+  }
+}

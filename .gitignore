@@ -26,3 +26,5 @@ pypyenv/
 env*/
 venv/
 __pycache__
+node_modules
+.vscode
