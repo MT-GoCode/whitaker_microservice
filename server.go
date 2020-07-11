@@ -10,9 +10,6 @@ import (
 	"net/http" // http package
 	// "reflect"
 )
-// Send a request to /process with text query parameter containing the word to be processed, result is sent as response
-// running python file from go based off of this:
-// https://stackoverflow.com/questions/41415337/running-external-python-in-golang-catching-continuous-exec-command-stdout
 
 var textile string;
 

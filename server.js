@@ -3,7 +3,6 @@ var bodyParser = require('body-parser')
 const app = express()
 app.use(bodyParser.json())
 
-// Send a request to /process with request json body with text key containing the word/phrase to be processed, result is sent as response
 
 const port = process.env.PORT || 8000
 const spawn = require("child_process").spawn;

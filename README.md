@@ -1,3 +1,10 @@
+Whitaker microservice API. Instructions:
+
+Go server: Send a request to /process with text query parameter containing the word to be processed, result is sent as response
+(running python files from go based off of this: https://stackoverflow.com/questions/41415337/running-external-python-in-golang-catching-continuous-exec-command-stdout)
+
+Express.js server: Send a request to /process with request json body with text key containing the word/phrase to be processed, result is sent as response
+
 # Open Words
 
 Open Words is a port of William Whitaker's original Ada code to Python for future maintenance and improvement.
